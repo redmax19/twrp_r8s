@@ -107,7 +107,7 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 
-TWRP specific build flags
+# TWRP specific build flags
 TW_DEVICE_VERSION := Android-Artisan_v2-
 TW_THEME := portrait_hdpi
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel/brightness"
