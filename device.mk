@@ -11,10 +11,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 # VNDK
 PRODUCT_TARGET_VNDK_VERSION := 30
 
-# Keymaster / Encryption Settings
-TW_FORCE_KEYMASTER_VER := true
-OF_DEFAULT_KEYMASTER_VERSION := 4.0
-
 # API
 PRODUCT_SHIPPING_API_LEVEL := 29
 
